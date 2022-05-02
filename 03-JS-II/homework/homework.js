@@ -8,7 +8,7 @@ function obtenerMayor(x, y) {
   if(x<y){
     return y
   } 
-  else return x
+  return x
 }
 
 function mayoriaDeEdad(edad) {
@@ -70,17 +70,17 @@ function colors(color) {
     default:
       return('Color not found')
   }
-  retur 
 }
 
 function esDiezOCinco(numero) {
   // Devuelve "true" si "numero" es 10 o 5
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (numero === 10 || numero === 5){
-    return true
-  }
-  else return false
+  // if (numero === 10 || numero === 5){
+  //   return true
+  // }
+  // else return false
+  return numero === 10 || numero === 5
 }
 
 function estaEnRango(numero) {
@@ -168,10 +168,12 @@ function tablaDelSeis(){
 function tieneTresDigitos(numero){
   //Leer un número entero y retornar true si tiene 3 dígitos. Caso contrario, retorna false.
   //Escribe tu código aquí
-  if (numero >= 100 && numero <= 999) {
-    return true
-  }
-  return false
+  // if (numero >= 100 && numero <= 999) {
+  //   return true
+  // }
+  // return false
+  let num = numero.toString()
+  return num.length === 3
 }
 
 function doWhile(numero) {
