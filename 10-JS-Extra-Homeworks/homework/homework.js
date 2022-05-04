@@ -133,7 +133,6 @@ function buscoInterseccion(arreglo1, arreglo2){
   }
   return intersección
 }
-console.log(buscoInterseccion([1, 2, 3], [4, 5, 4]))
 
 
 // No modificar nada debajo de esta línea
