@@ -1,0 +1,29 @@
+h1 {
+    color: lightseagreen;
+}
+img {
+    width: 400px;
+}
+#thirdDiv {
+    height: 600px;
+    width: 500px;
+    background-color: seagreen;
+    padding: 50px;
+    border: 10px; 
+    border-style: outset;
+    border-color: lightskyblue;
+    display: block;
+    margin: 0px auto;
+}
+#spanID {
+    font-size: 18px;
+    margin: 50px;
+}
+body {
+    background-image: url("http://4.bp.blogspot.com/-OciGIL34E7g/U9PaCf7Cx9I/AAAAAAAAA14/CW-wl7Jx1bU/s1600/Champi%C3%B1ones+Portobello.jpg");
+    background-size: 85rem
+}
+div {
+    display: grid;
+    place-items: center;
+}
